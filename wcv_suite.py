@@ -4,7 +4,7 @@ import sys
 import numpy as np
 
 # Konfiguration
-WORK_DIR = "/home/user/"
+WORK_DIR = "/home/user/"  #Change this path to the path you want.
 REF_IMG_PATH = os.path.join(WORK_DIR, "referenz.png")
 OUTPUT_WCV = os.path.join(WORK_DIR, "video.wcv")
 OUTPUT_AUDIO = os.path.join(WORK_DIR, "audio.wav")
