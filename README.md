@@ -45,3 +45,5 @@ Place your script, your target video, and a matching reference image (`referenz.
 Transform any standard video into the `.wcv` format:
 ```bash
 python3 wcv_suite.py encode input_video.mp4
+
+Note: The reference image must be a png, and the video must be mp4. And the resolution must be always 1280x720!
